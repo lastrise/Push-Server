@@ -18,7 +18,7 @@ Mock Android device with checkin and registering it in any application, after th
 
 1. Клонируем репозиторий и устанавливаем все зависимости.
 2. Запускаем app.py
-3. Для создания андройд-устройства под необходимое приложение необходимо отправить по адресу POST-запрос "http://localhost:5000/createDevice":
+3. Для создания андройд-устройства под необходимое приложение нужно отправить по адресу POST-запрос "http://localhost:5000/createDevice":
 ```python
 {
   "publicKey": "AIzaSyAOaoKaLhW98vLuaCuBqFh8qtLnh5c51z0", # Публичный ключ приложения
